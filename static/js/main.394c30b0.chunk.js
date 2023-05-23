@@ -25,9 +25,9 @@
                 "tokens": [
                     {
                         "name": "Krypto",
-                        "address": "0x5616bef3b80a00a0ddd35a33f169868f7b2f0c46434",
+                        "address": "0x8F9B6a25e915e44B212C6853Fb7b1Ed2cE4e702b",
                         "symbol": "CATCOLOR",
-                        "decimals": 18,
+                        "decimals": 9,
                         "chainId": 56,
                         "logoURI": "https://catcolor.live/assets/images/logo.png"
                     },
