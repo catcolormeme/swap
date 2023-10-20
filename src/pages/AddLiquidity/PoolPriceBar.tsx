@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@pancakeswap-libs/sdk-v2'
+import { Currency, Percent, Price } from '@catcolortoken/sdk-v2'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'

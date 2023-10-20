@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@pancakeswap-libs/sdk-v2'
+import { Token, TokenAmount } from '@catcolortoken/sdk-v2'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from 'react'
 import { ThemeContext } from 'styled-components'
-import { Pair } from '@pancakeswap-libs/sdk-v2'
+import { Pair } from '@catcolortoken/sdk-v2'
 import { Button, CardBody } from 'uikit'
 import { Link } from 'react-router-dom'
 import CardNav from 'components/CardNav'

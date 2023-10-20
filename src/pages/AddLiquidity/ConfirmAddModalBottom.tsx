@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@pancakeswap-libs/sdk-v2'
+import { Currency, CurrencyAmount, Fraction, Percent } from '@catcolortoken/sdk-v2'
 import React from 'react'
 import { Button } from 'uikit'
 import { RowBetween, RowFixed } from '../../components/Row'

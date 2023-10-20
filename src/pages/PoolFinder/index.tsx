@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from '@pancakeswap-libs/sdk-v2'
+import { Currency, ETHER, JSBI, TokenAmount } from '@catcolortoken/sdk-v2'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Text } from 'rebass'
 import { Button, ChevronDownIcon, AddIcon, CardBody } from 'uikit'

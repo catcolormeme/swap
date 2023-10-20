@@ -1,6 +1,6 @@
 import React, { useCallback, useMemo, useState } from 'react'
 import { TransactionResponse } from '@ethersproject/abstract-provider'
-import { JSBI, Token, TokenAmount, WETH, Fraction, Percent, CurrencyAmount } from '@pancakeswap-libs/sdk-v2'
+import { JSBI, Token, TokenAmount, WETH, Fraction, Percent, CurrencyAmount } from '@catcolortoken/sdk-v2'
 import { Button } from 'uikit'
 import { Redirect, RouteComponentProps } from 'react-router'
 import { LightCard } from '../../components/Card'

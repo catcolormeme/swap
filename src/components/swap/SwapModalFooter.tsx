@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@pancakeswap-libs/sdk-v2'
+import { Trade, TradeType } from '@catcolortoken/sdk-v2'
 import React, { useMemo, useState } from 'react'
 import { Text } from 'uikit'
 import { Repeat } from 'react-feather'

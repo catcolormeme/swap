@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@pancakeswap-libs/sdk-v2'
+import { Currency, ETHER, Token } from '@catcolortoken/sdk-v2'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 
