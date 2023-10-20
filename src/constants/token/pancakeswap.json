@@ -1,0 +1,21 @@
+{
+  "name": "pancakeswap",
+  "timestamp": "2020-08-25T15:41:29.665Z",
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 1
+  },
+  "tags": {},
+  "logoURI": "/images/coins/wbnb.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "WCATCOLOR CatColor",
+      "symbol": "WCATCOLOR",
+      "address": "0xDa5A439f929Db27cA4256953C386FfF42aA18077",
+      "chainId": 6544,
+      "decimals": 18
+    }
+  ]
+}
