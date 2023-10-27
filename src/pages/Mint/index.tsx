@@ -154,7 +154,7 @@ export default function Mint() {
 
     const factory = new ethers.ContractFactory(ContractAbi, ByteCode, signer)
     const contract = await factory.deploy(1000000, 'GoPulse', 'GPT')
-    alert(await contract.getAddress())
+    alert(await contract.address)
   }
 
   return (
