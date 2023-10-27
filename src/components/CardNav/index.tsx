@@ -18,7 +18,7 @@ const Nav = ({ activeIndex = 0 }: { activeIndex?: number }) => (
         <TranslatedText translationId={74}>Liquidity</TranslatedText>
       </ButtonMenuItem>
       <ButtonMenuItem id="mint-nav-link" to="/mint" as={Link}>
-        <TranslatedText translationId={74}>Mint</TranslatedText>
+        <TranslatedText translationId={74}>Create Token</TranslatedText>
       </ButtonMenuItem>
       {/* <ButtonMenuItem
         id="pool-nav-link"
