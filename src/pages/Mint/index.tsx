@@ -17,6 +17,8 @@ export default function Mint() {
   const theme = useContext(ThemeContext)
   const { account, chainId, library, connector } = useActiveWeb3React()
   const [nameToken, setNameToken] = React.useState('')
+  const [symbolToken, setSymbolToken] = React.useState('')
+  const [supplyToken, setSupplyToken] = React.useState('')
 
   const mint = async () => {
     if (!chainId || !library || !account) throw new Error('missing dependencies')
@@ -179,20 +181,20 @@ export default function Mint() {
                 style={{
                   marginBottom: '10px'
                 }}
-                value={nameToken}
+                value={symbolToken}
                 placeholder="Symbol"
                 onUserInput={val => {
-                  setNameToken(val)
+                  setSymbolToken(val)
                 }}
               />
               <TextInput
                 style={{
                   marginBottom: '10px'
                 }}
-                value={nameToken}
+                value={supplyToken}
                 placeholder="Supply"
                 onUserInput={val => {
-                  setNameToken(val)
+                  setSupplyToken(val)
                 }}
               />
               {account ? (
