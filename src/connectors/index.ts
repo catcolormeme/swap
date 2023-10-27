@@ -26,7 +26,6 @@ let networkLibrary: Web3Provider | undefined
 export function getNetworkLibrary(): Web3Provider {
   return (networkLibrary = networkLibrary ?? new Web3Provider(network.provider as any))
 }
-console.log(Number(process.env.REACT_APP_CHAIN_ID));
 
 export const injected = new InjectedConnector({
   supportedChainIds: [Number(process.env.REACT_APP_CHAIN_ID)]

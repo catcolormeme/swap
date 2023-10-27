@@ -15,6 +15,7 @@ import MigrateV1 from './MigrateV1'
 import MigrateV1Exchange from './MigrateV1/MigrateV1Exchange'
 import RemoveV1Exchange from './MigrateV1/RemoveV1Exchange'
 import Pool from './Pool'
+import Mint from './Mint'
 import PoolFinder from './PoolFinder'
 // import Farm from './Farm'
 import RemoveLiquidity from './RemoveLiquidity'
@@ -110,9 +111,9 @@ export default function App() {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedLanguage])
-  
+
   useGetDocumentTitlePrice()
-  
+
   return (
     <Suspense fallback={null}>
       <HashRouter>
@@ -131,6 +132,7 @@ export default function App() {
                     <Route exact strict path="/send" component={RedirectPathToSwapOnly} />
                     <Route exact strict path="/find" component={PoolFinder} />
                     <Route exact strict path="/pool" component={Pool} />
+                    <Route exact strict path="/mint" component={Mint} />
                     <Route exact strict path="/create" component={RedirectToAddLiquidity} />
                     <Route exact path="/add" component={AddLiquidity} />
                     <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} />
